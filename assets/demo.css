@@ -1,0 +1,90 @@
+
+h4 a {
+  background: url("sprite6.png") 15px 13px no-repeat;
+  display: block;
+  padding: 10px;
+  padding-left: 32px;
+  margin: 0;
+  color: #000;
+  text-decoration: none;
+  font-weight: normal;
+  border:none !important;
+  letter-spacing:3px;
+  text-transform: uppercase;
+}
+
+h4:hover { }
+h4.open  {  }
+h4.open a { background-position: 13px -170px; }
+h4.open a { color:red;}
+h4.open a:hover, h4.open a:focus  { opacity:1 !important;}
+h4 >a:hover, h4> a:focus  { opacity:1 !important;}
+
+
+h4 + div { padding: 10px; }
+h2 + div,
+
+.example {
+  background: #fff;
+  overflow: hidden;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+/* Pre hide sections with JavaScript on
+--- */
+h4+div {
+  display: none;
+}
+
+/* CSS3 Animation example
+--- */
+#css3-animated-example h4 + div {
+  height: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background: #000;
+  display: block!important;
+  -webkit-transform: translateZ(0);
+  -webkit-transition: all 0.3s ease;
+  moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition:all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#css3-animated-example .content {
+  padding: 10px;
+}
+
+#css3-animated-example h4.open + div {
+  height: auto;
+  background: #aaffff;
+}
+
+
+
+@media
+only screen and (max-width: 704px),
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+ 
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+  body {
+    padding: 0 12px;
+  }
+}
+
+hr.reviewhr {margin: 15px 0 !important; }
+.supporthead1 h2{letter-spacing: 3px; color:#000;}
+.supporthead2 h3{letter-spacing: 3px; color:#000;}
+.supporthead3 h3{text-transform: uppercase;}
+.contactbor{border: 1px solid gray; padding: 30px;}
+.contact button {padding: 8px 50px; border-radius: 3px; margin-top: -40px;}
+.contact p{font-weight: bold;}
+

@@ -1,0 +1,239 @@
+@charset "utf-8";
+/* CSS Document */
+.medium-up--one-third3{width:75%;}
+
+.foot-bg{background:#1b1b1b;}
+.foot-menu li {float:left;margin-bottom: 10px; text-transform: uppercase;}
+.iconbox {
+        clear: both;
+        float: left;
+        margin: 0 0 20px 0;
+        width: 100%;
+    }
+.iconbox li {
+        margin-right: 20px;
+        float: left;
+        margin-top: 15px;
+    }
+footer.foot-bg a {
+    color: #727272;
+}
+
+.footerleft {
+      float: left;
+      padding-left: 10px;
+          margin-top: 30px;
+    }
+    .footerleft h4 {
+      font-size: 16px;
+      padding-bottom: 20px;
+      color: #727272;
+      margin: 0;
+      -webkit-text-transform: uppercase;
+      text-transform: uppercase;
+      font-family: review,Arial;
+    }
+    .footerleft ul, li {
+      list-style-type: none;
+      padding: 0;
+      
+    }
+    .footerleft .youlian {
+      margin-bottom: 30px;
+      clear: both;
+      overflow: hidden;
+    }
+    
+    .footerleft .youlian li {
+      float: left;
+      margin: 0 20px 0 0;
+      width: 51px;
+      height: 51px;
+      overflow: hidden;
+    }
+
+    
+    .font14 {
+      font-size: 14px;
+      color: #727272;
+      font-family: review2,Arial;
+    }
+
+ul#SiteNav a {
+    color: #fff;
+}
+@media only screen and (min-width: 750px){
+  .site-footer__linklist{margin-top:30px;}
+  .site-footer__newsletter {margin-top:0px;}
+}
+
+
+span.hr {
+    border: solid 1px #adadad;
+    width: 20%;
+    display: inline-block;
+}
+
+
+/*   css  self   */
+.prsindriver input{
+  width:100%;
+  font-size:;
+}
+
+.prsindriver .btn {
+  padding: 5px 18px;
+  width:100%;
+  font-size:16px;
+  font-weight: bold;
+  margin:10px 0px auto;
+}
+
+
+.grid.product-single .grid__item {padding-left: 0px !important;}
+
+.social-sharing { margin: 20px 0px 0 0;}
+
+.desc1 p{    
+  margin: 0 0 30px;
+    font-style: normal;
+    /*line-height: 1.8em;*/
+    color:#363636;
+}
+
+
+
+
+.desc4 p{    
+  margin: 0 0 20px;
+    font-style: normal;
+    line-height: 1.8em;
+    color:#363636;
+}
+
+
+.desc5 p{    
+  margin: 0 0 20px;
+    font-style: normal;
+    line-height: 1.8em;
+    color:#363636;
+}
+
+
+.desc2 img {
+    margin: 0px 15px 15px 0px;
+}
+.desc2 p {
+    margin: 0 0 20px;
+    line-height: 1.8em;
+    color:#363636;
+}
+.desc6 img {
+    margin: 0px 15px 15px 0px;
+}
+.desc6 p {
+    margin: 0 0 20px;
+    line-height: 1.8em;
+    color:#363636;
+}
+
+
+
+.desc3 ul>li {
+    line-height: 1.8em;
+    color:#363636;
+}
+.desc3 p{
+    color:#363636;
+}
+
+.thumbnails-wrapper.thumbnails-slider--active {
+    margin-right: 15px;
+}
+
+
+
+@media screen and (max-width: 480px){
+  .desc4{padding-left:15px;}
+  .desc5{padding-left:15px;}
+  .desc1{padding-left:15px;}
+  .desc2{padding-left:15px;}
+  .desc6{padding-left:15px;}
+  .desc3{padding-left:15px;}
+
+  .grid__item.medium-up--one-half {margin-left: 15px;}
+
+  .slideshow{ height:135px !important; }
+
+}
+
+@media screen and (max-width: 767px){
+  .desc4{padding-left:15px;}
+  .desc5{padding-left:15px;}
+  .desc1{padding-left:15px;}
+  .desc2{padding-left:15px;}
+  .desc6{padding-left:15px;}
+  .desc3{padding-left:15px;}
+
+  .grid__item.medium-up--one-half {margin-left: 15px;}
+
+  .contact{text-align:center;}
+  .contact button{margin-top: 0px !important; float:none !important;}
+
+
+  .slideshow-wrapper {margin-top: 11px;}
+  .main-content { padding-top: 90px;}
+
+  .slideshow{ height:200px ; }
+}
+
+
+@media screen and (max-width: 768px){
+  .contact{text-align:center;}
+  .contact button{margin-top: 0px !important; float:none !important;}
+
+  .site-nav a {padding: 3px 7px;}
+  
+
+  .slideshow{ height:215px ; }
+
+}
+
+@media screen and (width: 1024px){
+  .slideshow{ height:288px ; }
+} 
+
+@media screen and (min-width: 1025px){
+  .slideshow{ height:362px ; }
+} 
+
+
+h1.product-single__title, .product-single__title.h1 {
+    margin-bottom: 0;
+    font-size: 25px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 2px !important;
+}
+
+
+.headingbor{
+    border: solid 1px;
+    display: block;
+    width: 110px;
+    height: 1px;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 0;
+    margin: 25px auto;
+    border-color: #b7b7b7;
+}
+
+ul.single >li {
+    list-style-type: none;
+    margin-left: -15px;
+}
+
+.footerleft >.grid--no-gutters{
+	display: block;
+}
+
